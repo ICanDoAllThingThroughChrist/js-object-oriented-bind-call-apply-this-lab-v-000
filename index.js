@@ -1,4 +1,10 @@
 //Your code here
+functionToBeCopied = function (){
+  return this
+}
+fred = { name: 'fred'}
+
+
 function justInvoke(fn) {
   debugger;
   return fn();

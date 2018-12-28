@@ -5,6 +5,7 @@ let fred;
 let functionToBeCopied;
 let returnsThisAndArgs;
 let bob;
+
 returnsThisAndArgs = function(){ return {thisValue: this, arguments: Array.from(arguments)} }
 let bob = {name: 'bob'};
 let age = 18;

@@ -1,4 +1,6 @@
 //Your code here
+let age = 20;
+let hairColor = 'black';
 let fred;
 let functionToBeCopied;
 

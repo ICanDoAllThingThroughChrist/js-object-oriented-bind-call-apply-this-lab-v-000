@@ -1,4 +1,7 @@
 //Your code here
+let fred;
+let functionToBeCopied;
+
 functionToBeCopied = function (){
   return this
 }

@@ -8,10 +8,11 @@ let bob;
 returnsThisAndArgs = function(){ return {thisValue: this, arguments: Array.from(arguments)} }
 let bob = {name: 'bob'};
 let age = 18;
+
 functionToBeCopied = function (){
   return this
 }
-fred = { name: 'fred'}
+let fred = { name: 'fred'}
 
 
 function justInvoke(fn) {

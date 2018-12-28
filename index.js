@@ -3,7 +3,8 @@ let age = 20;
 let hairColor = 'black';
 let fred;
 let functionToBeCopied;
-
+let returnsThisAndArgs;
+let bob;
 functionToBeCopied = function (){
   return this
 }
